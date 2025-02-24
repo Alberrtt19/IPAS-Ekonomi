@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ekonomi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="sticky top-0 z-50 bg-white text-gray-800 shadow-lg opacity-0 transition-opacity duration-1000 ease-in-out">
+    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+      <!-- Logo -->
+      <div class="text-xl font-bold">
+        <a href="#" class="flex items-center space-x-2">
+          <span class="text-green-600">Gn</span><span>Rinjani</span>
+        </a>
+      </div>
+
+      <!-- Menu Items -->
+      <div class="hidden md:flex space-x-6">
+        <a href="/Frontend/index.html" class="hover:text-green-600 transition duration-300">Beranda</a>
+        <a href="#" class="hover:text-green-600 transition duration-300">Tentang</a>
+        <a href="/Frontend/materi.html" class="hover:text-green-600 transition duration-300">Materi</a>
+        <a href="#" class="hover:text-green-600 transition duration-300">Kontak</a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" class="md:hidden focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4">
+      <a href="/Frontend/index.html" class="block py-2 text-gray-800 hover:text-green-600 transition duration-300">Beranda</a>
+      <a href="#" class="block py-2 text-gray-800 hover:text-green-600 transition duration-300">Tentang</a>
+      <a href="/Frontend/materi.html" class="block py-2 text-gray-800 hover:text-green-600 transition duration-300">Materi</a>
+      <a href="#" class="block py-2 text-gray-800 hover:text-green-600 transition duration-300">Kontak</a>
+    </div>
+  </nav>
+
+  <!-- Section: Kemiskinan -->
+  <section id="inflasi" class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Text Content -->
+      <div>
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Kemiskinan</h2>
+        <p class="text-gray-600 mb-4">
+          Kemiskinan adalah kondisi di mana seseorang atau kelompok masyarakat tidak dapat memenuhi kebutuhan dasar mereka, seperti makanan, pakaian, tempat tinggal, pendidikan, dan layanan kesehatan, karena keterbatasan sumber daya ekonomi.
+        </p>
+        <p class="text-gray-600 mb-4">
+          Penyebab : <br>
+          1 ) Rendahnya tingkat pendidikan dan keterampilan kerja <br>
+          2 ) Keterbatasan Lapangan kerja <br>
+          3 ) Upah rendah yang tidak mencukupi kebutuhan hidup 
+        </p>
+        <p class="text-gray-600">
+          Dampak : <br>
+          1 ) Meningkatnya angka kelaparan dan gizi buruk <br>
+          2 ) Tingginya angka kriminalitas akibat tekanan ekonomi <br>
+          3 ) Rendahnya Produktivitas tenaga kerja
+        </p>
+        <br>
+        <p class="text-gray-600">
+          Solusi : <br>
+          1 ) Meningkatkan akses pendidikan dan pelatihan kerja <br>
+          2 ) Mendorong program bantuan sosial yang tepat sasaran <br>
+          3 ) Memperkuat sektor UMKM agar menciptakan lapangan kerja 
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="flex justify-center">
+        <img src="/Assets/kemiskinan.png" alt="Inflasi" class="rounded-lg shadow-lg max-w-full h-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Jelajahi -->
+  <section id="jelajahi" class="bg-green-600 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Image -->
+        <div class="flex justify-center">
+          <img src="/Assets/pengangguran.png" alt="Jelajahi" class="rounded-lg shadow-lg max-w-full h-auto">
+        </div>
+
+        <!-- Text Content -->
+        <div>
+          <h2 class="text-3xl font-bold mb-4">Pengangguran & Ketenagakerjaan</h2>
+          <p class="mb-4">
+            Pengangguran terjadi ketika seseorang yang ingin bekerja tidak mendapatkan pekerjaan. Ketenagakerjaan mengacu pada kondisi dan kesempatan kerja yang tersedia di suatu negara.          </p>
+          <p class="mb-4">
+            Penyebab : <br>
+            1 ) Pertumbuhan penduduk yang tinggi tidak diimbangi dengan penciptaan lapangan kerja <br>
+            2 ) Kurangnya keterampilan dan pendidikan yang sesuai dengan kebutuhan industri <br>
+            3 ) Krisis ekonomi yang menyebabkan perusahaan mengurangi tenaga kerja
+          </p>
+         <p class="mb-4">
+            Dampak : <br>
+            1 ) Meningkatnya angka kemiskinan <br>
+            2 ) Menurunnya daya beli masyarakat <br>
+            3 ) Berkurangnya penerimaan pajak negara
+          </p>
+          <p class="mb-4">
+            Solusi : <br>
+            1 ) Meningkatkan pendidikan vokasi dan pelatihan kerja <br>
+            2 ) Mendorong investasi untuk menciptakan lebih banyak lapangan kerja <br>
+            3 ) Menyesuaikan kurikulum pendidikan dengan kebutuhan industri
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Ketimpangan Ekonomi -->
+  <section id="pengangguran" class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Text Content -->
+      <div>
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Ketimpangan Ekonomi</h2>
+        <p class="text-gray-600 mb-4">
+          Ketimpangan ekonomi terjadi ketika distribusi pendapatan dan kekayaan tidak merata di antara penduduk suatu negara.
+        </p>
+        <p class="text-gray-600 mb-4">
+          Penyebab : <br>
+          1 ) Konsentrasi ekonomi di kota besar <br>
+          2 ) Perbedaan akses terhadap pendidikan dan kesehatan <br>
+          3 ) Ketimpangan dalam kesempatan kerja dan kewirausahaan
+        </p>
+        <p class="text-gray-600">
+          Dampak : <br>
+          1 ) Memicu ketidakstabilan sosial dan politik <br>
+          2 ) Kesulitan dalam mobilitas sosial bagi kelompok miskin <br>
+          3 ) Menurunnya pertumbuhan ekonomi secara keseluruhan
+        </p>
+        <br>
+        <p class="text-gray-600">
+          Dampak : <br>
+          1 ) Meningkatkan pembangunan di daerah tertinggal <br>
+          2 ) Mendorong program bantuan sosial yang adil dan efektif <br>
+          3 ) Mempermudah akses masyarakat kecil terhadap kredit usaha
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="flex justify-center">
+        <img src="/Assets/ketimpangan.png" alt="Pengangguran" class="rounded-lg shadow-lg max-w-full h-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Baru: Solusi Ekonomi -->
+  <section id="solusi-ekonomi" class="bg-green-600 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Image -->
+        <div class="flex justify-center">
+          <img src="/Assets/inflasi.png" alt="Solusi Ekonomi" class="rounded-lg shadow-lg max-w-full h-auto">
+        </div>
+
+        <!-- Text Content -->
+        <div>
+          <h2 class="text-3xl font-bold mb-4">Inflasi & Harga Barang Pokok</h2>
+          <p class="mb-4">
+            Inflasi adalah kenaikan harga barang dan jasa secara umum dan terus-menerus dalam jangka waktu tertentu, yang menyebabkan daya beli masyarakat menurun.
+          </p>
+          <p class="mb-4">
+            Penyebab : <br>
+            1 ) Permintaan barang yang lebih tinggi daripada pasokan <br>
+            2 ) Kenaikan harga bahan baku dan transportasi <br>
+            3 ) Ketidakstabilan nilai tukar mata uang
+          </p>
+         <p class="mb-4">
+            Dampak : <br>
+            1 ) Berkurangnya daya beli masyarakat <br>
+            2 ) Meningkatnya biaya produksi dan operasional usaha <br>
+            3 ) Ketidakstabilan ekonomi jika inflasi terlalu tinggi
+          </p>
+          <p class="mb-4">
+            Penyebab : <br>
+            1 ) Mengontrol kebijakan moneter dan suku bunga <br>
+            2 ) Menjaga stabilitas nilai tukar rupiah <br>
+            3 )  Memperkuat sektor pertanian dan industri dalam negeri
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Pengangguran -->
+  <section id="pengangguran" class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Text Content -->
+      <div>
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Utang Negara</h2>
+        <p class="text-gray-600 mb-4">
+          Utang negara adalah pinjaman yang diambil oleh pemerintah dari sumber dalam atau luar negeri untuk mendanai pembangunan.        </p>
+        <p class="text-gray-600 mb-4">
+          Penyebab : <br>
+          1 ) Defisit anggaran yang terus berlanjut <br>
+          2 ) Ketergantungan pada investasi asing <br>
+          3 ) Rendahnya penerimaan pajak
+        </p>
+        <p class="text-gray-600">
+          Dampak : <br>
+          1 ) Beban pembayaran bunga yang tinggi <br>
+          2 ) Risiko gagal bayar jika utang tidak dikelola dengan baik <br>
+          3 ) Berkurangnya kepercayaan investor jika utang terlalu besar
+        </p>
+        <br>
+        <p class="text-gray-600">
+          Solusi : <br>
+          1 ) Mengoptimalkan penerimaan pajak tanpa membebani masyarakat kecil <br>
+          2 ) Mengurangi pengeluaran yang tidak produktif <br>
+          3 ) Mengelola utang dengan transparansi dan akuntabilitas tinggi
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="flex justify-center">
+        <img src="/Assets/utang.png" alt="Pengangguran" class="rounded-lg shadow-lg max-w-full h-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Baru: Solusi Ekonomi -->
+  <section id="solusi-ekonomi" class="bg-green-600 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Image -->
+        <div class="flex justify-center">
+          <img src="/Assets/kesenjangan.png" alt="Solusi Ekonomi" class="rounded-lg shadow-lg max-w-full h-auto">
+        </div>
+
+        <!-- Text Content -->
+        <div>
+          <h2 class="text-3xl font-bold mb-4">Kesenjangan dalam Akses Pendidikan</h2>
+          <p class="mb-4">
+            Kesenjangan akses pendidikan terjadi ketika tidak semua masyarakat memiliki kesempatan yang sama untuk mendapatkan pendidikan berkualitas.
+          </p>
+          <p class="mb-4">
+            Penyebab : <br>
+            1 )  Biaya pendidikan yang mahal.<br>
+            2 )  Keterbatasan fasilitas pendidikan di daerah terpencil <br>
+            3 )  Kurangnya tenaga pengajar berkualitas.
+          </p>
+          <p class="mb-4">
+            Dampak : <br>
+            1 )  Rendahnya kualitas sumber daya manusia <br>
+            2 )  Meningkatnya angka pengangguran <br>
+            3 )  Terhambatnya pertumbuhan ekonomi
+          </p>
+          <p class="mb-4">
+            Solusi : <br>
+            1 )  Memberikan subsidi pendidikan bagi masyarakat miskin <br>
+            2 )  Meningkatkan infrastruktur pendidikan di daerah terpencil <br>
+            3 )  Menyediakan beasiswa dan program pendidikan inklusif
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Pengangguran -->
+  <section id="pengangguran" class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Text Content -->
+      <div>
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Daya Saing Industri & Inovatif</h2>
+        <p class="text-gray-600 mb-4">
+          Daya saing industri adalah kemampuan suatu negara untuk menghasilkan barang dan jasa yang kompetitif di pasar global
+        </p>
+        <p class="text-gray-600 mb-4">
+          Penyebab : <br>
+          1 ) Kurangnya investasi dalam penelitian dan pengembangan (R&D) <br>
+          2 ) Regulasi yang menghambat inovasi dan investasi <br>
+          3 ) Keterbatasan tenaga kerja yang memiliki keahlian tinggi
+        </p>
+        <p class="text-gray-600">
+          Dampak : <br>
+          1 ) Ketergantungan pada produk impor <br>
+          2 ) Sulit bersaing di pasar global <br>
+          3 ) Lambatnya pertumbuhan industri dalam negeri
+        </p>
+        <br>
+        <p class="text-gray-600">
+          Solusi : <br>
+          1 ) Meningkatkan investasi dalam R&D <br>
+          2 ) Mempermudah regulasi bagi industri inovatif <br>
+          3 ) Mendorong kolaborasi antara universitas dan industri
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="flex justify-center">
+        <img src="/Assets/dayaindustri.png" alt="Pengangguran" class="rounded-lg shadow-lg max-w-full h-auto">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Baru: Solusi Ekonomi -->
+  <section id="solusi-ekonomi" class="bg-green-600 text-white py-12">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <!-- Image -->
+        <div class="flex justify-center">
+          <img src="/Assets/infrastruktue.png" alt="Solusi Ekonomi" class="rounded-lg shadow-lg max-w-full h-auto">
+        </div>
+
+        <!-- Text Content -->
+        <div>
+          <h2 class="text-3xl font-bold mb-4">Infrastruktur yang Belum Merata</h2>
+          <p class="mb-4">
+            Infrastruktur yang belum merata mengacu pada ketimpangan dalam pembangunan jalan, listrik, air, dan internet di berbagai wilayah          </p>
+          <p class="mb-4">
+            Penyebab : <br>
+            1 ) Kurangnya anggaran pembangunan di daerah tertinggal <br>
+            2 ) Fokus pembangunan yang lebih banyak di kota besar
+          </p>
+          <p class="mb-4">
+            Dampak : <br>
+            1 ) Menghambat pertumbuhan ekonomi daerah <br>
+            2 ) Sulitnya akses pendidikan dan kesehatan di daerah terpencil
+          </p>
+          <p class="mb-4">
+            Solusi : <br>
+            1 ) Meningkatkan anggaran untuk pembangunan daerah <br>
+            2 ) Mendorong investasi swasta dalam insfrastruktur
+          </p>
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Pengangguran -->
+  <section id="pengangguran" class="container mx-auto px-4 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+      <!-- Text Content -->
+      <div>
+        <h2 class="text-3xl font-bold text-gray-800 mb-4">Defisit Neraca Perdagangan</h2>
+        <p class="text-gray-600 mb-4">
+          Defisit neraca perdagangan terjadi ketika nilai impor lebih besar dari ekspor suatu negara
+        </p>
+        <p class="text-gray-600 mb-4">
+          Penyebab : <br>
+          1 ) Ketergantungan pada barang impor <br>
+          2 ) Daya saing produk lokal yang rendah <br>
+          3 ) Fluktuasi nilai tukar mata uang
+        </p>
+        <p class="text-gray-600">
+          Dampak : <br>
+          1 ) Melemahnya nilai mata uang rupiah <br>
+          2 ) Berkurangnya cadangan devisa <br>
+          3 ) Ketergantungan ekonomi terhadap negara lain
+        </p>
+        <br>
+        <p class="text-gray-600">
+          Solusi : <br>
+          1 ) Meningkatkan daya saing produk lokal <br>
+          2 ) Diversifikasi Ekspor<br>
+          3 ) Mendorong penggunaan produk dalam negeri
+        </p>
+      </div>
+
+      <!-- Image -->
+      <div class="flex justify-center">
+        <img src="/Assets/defisit.png" alt="Pengangguran" class="rounded-lg shadow-lg max-w-full h-auto">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="bg-green-600 text-white py-8 mt-8">
+    <div class="container mx-auto px-4 text-center">
+      <p class="text-sm">&copy; 2023 EcoNomy. All rights reserved.</p>
+      <div class="mt-4 space-x-4">
+        <a href="/Frontend/index.html" class="hover:text-green-200 transition duration-300">Beranda</a>
+        <a href="#" class="hover:text-green-200 transition duration-300">Tentang</a>
+        <a href="/Frontend/materi.html" class="hover:text-green-200 transition duration-300">Materi</a>
+        <a href="#" class="hover:text-green-200 transition duration-300">Kontak</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Toggle mobile menu
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Navbar Animation
+    window.addEventListener('load', () => {
+      const navbar = document.getElementById('navbar');
+      setTimeout(() => {
+        navbar.classList.remove('opacity-0');
+        navbar.classList.add('opacity-100');
+      }, 500); // Delay 500ms sebelum animasi dimulai
+    });
+  </script>
+
+</body>
+</html>
